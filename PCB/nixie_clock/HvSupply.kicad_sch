@@ -1,0 +1,40 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bbf6d9ab-fb93-4a72-8e74-531484c4ab7c")
+	(paper "A4")
+	(title_block
+		(title "Tiny Nixie Clock")
+		(date "2024-07-05")
+		(rev "V0R0")
+		(comment 1 "creativecommons.org/licenses/by/4.0/")
+		(comment 2 "Licence: CC BY 4.0")
+		(comment 3 "Author: Michal Palič")
+	)
+	(lib_symbols)
+	(hierarchical_label "hv_out"
+		(shape output)
+		(at 205 56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77b8af43-118e-438d-9428-82eb874dcb2d")
+	)
+	(hierarchical_label "lv_in"
+		(shape input)
+		(at 64 56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b37a1a71-f253-4a95-9b09-414af6921191")
+	)
+)

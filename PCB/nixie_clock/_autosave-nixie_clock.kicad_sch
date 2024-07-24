@@ -1,0 +1,117 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f37b5056-4078-4818-8bc7-3db6d9f9c6b3")
+	(paper "A4")
+	(title_block
+		(title "Tiny Nixie Clock")
+		(date "2024-07-05")
+		(rev "V0R0")
+		(comment 1 "creativecommons.org/licenses/by/4.0/")
+		(comment 2 "Licence: CC BY 4.0")
+		(comment 3 "Author: Michal Palič")
+	)
+	(lib_symbols)
+	(sheet
+		(at 61.68 61.08)
+		(size 21.64 9.36)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2fcecf23-f56b-4ac8-9f42-382ed668edae")
+		(property "Sheetname" "HV Supply"
+			(at 61.68 60.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HvSupply.kicad_sch"
+			(at 61.68 70.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "hv_out" output
+			(at 83.32 68.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dfb63a89-8b58-4e03-85be-73ca86ab5d6d")
+		)
+		(pin "lv_in" input
+			(at 61.68 68.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf28220f-0e63-43bd-afbd-f342720e9dbb")
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/f37b5056-4078-4818-8bc7-3db6d9f9c6b3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.88 41.8)
+		(size 22.44 7.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "461e92f6-6e44-4547-b7f4-da2cd933f7ed")
+		(property "Sheetname" "Tube Front End"
+			(at 60.88 41.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TubeFrontEnd.kicad_sch"
+			(at 60.88 49.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/f37b5056-4078-4818-8bc7-3db6d9f9c6b3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

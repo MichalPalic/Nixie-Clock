@@ -1,0 +1,59 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f37b5056-4078-4818-8bc7-3db6d9f9c6b3")
+	(paper "A4")
+	(title_block
+		(title "Tiny Nixie Clock")
+		(date "2024-07-05")
+		(rev "V0R0")
+		(comment 1 "creativecommons.org/licenses/by/4.0/")
+		(comment 2 "Licence: CC BY 4.0")
+		(comment 3 "Author: Michal Palič")
+	)
+	(lib_symbols)
+	(sheet
+		(at 63.6 63.04)
+		(size 12.72 3.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2fcecf23-f56b-4ac8-9f42-382ed668edae")
+		(property "Sheetname" "HV Supply"
+			(at 63.6 62.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HvSupply.kicad_sch"
+			(at 63.6 67.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nixie_clock"
+				(path "/f37b5056-4078-4818-8bc7-3db6d9f9c6b3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
